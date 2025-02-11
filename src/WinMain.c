@@ -57,11 +57,13 @@ VOID mainCRTStartup()
                         GetModuleHandleW(NULL), NULL))
     {
         MSG _ = {};
+        
         while (GetMessageW(&_, NULL, (UINT){}, (UINT){}))
         {
             TranslateMessage(&_);
             DispatchMessageW(&_);
         }
     }
+
     ExitProcess(EXIT_SUCCESS);
 }
