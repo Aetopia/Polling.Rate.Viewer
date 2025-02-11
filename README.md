@@ -1,6 +1,6 @@
 # Polling Rate Viewer
 
-A simple console tool to view your mouse's polling rate.
+A program to view your mouse's polling rate.
 
 ## Building
 1. Install [MSYS2](https://www.msys2.org/) & [UPX](https://upx.github.io/) for optional compression.
